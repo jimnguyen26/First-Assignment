@@ -1,0 +1,13 @@
+header {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    text-align: right;
+}
