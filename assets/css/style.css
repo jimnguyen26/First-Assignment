@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #dddddd;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
     position: absolute;
     height: 300px;
     width: 700px;
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: #cccccc;
     top: 50%;
     left: 50%;
@@ -38,25 +38,30 @@ nav {
     width: 100%;
     display: table;
     background-color: #ffffff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .card-header-text {
     display: table-cell;
     vertical-align: middle;
     color: #4aaaa5;
+    background-color: #ffffff;
     font-size: 30px;
+    padding-left: 20px;
 }
 
 .card-image {
-    width: 50px;
-    height: 50px;
+    width: 175px;
+    height: 130px;
 }
+
+
 
 main {
     height: 80vh;
     position: relative;
+    border: #4aaaa5 20px;
 }
 
 .card-text {
@@ -78,12 +83,19 @@ main {
     color: #777777;
 }
 
+.nav-link:not(:last-child) {
+    padding-right: 20px;
+}
+
 .name,
 .nav-link {
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 footer {
     height: 10vh;
     background-color: #666666;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
 }
