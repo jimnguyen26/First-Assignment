@@ -1,47 +1,89 @@
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 3px;
-}
-
-header {
-    height: 12vh;
-    display: table;
-    background-color: #34495e;
-    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
 }
 
-h3 {
-    color: white;
-    display: table-cell;
-    padding-left: 200px;
-    vertical-align: middle;
+body {
+    background-color: #ffffff;
 }
 
 nav {
     display: table;
-    float: right;
-    height: 12vh;
-    margin-right: 200px;
+    height: 10vh;
+    background-color: #4aaaa5;
+    width: 10%;
+    margin-left: 100px;
 }
 
-a {
+.name {
+    color: #ffffff;
     display: table-cell;
     vertical-align: middle;
-    text-decoration: none;
-    color: white;
+}
+
+.container {
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-header {
+    height: 25%;
+    width: 100%;
+    display: table;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-header-text {
+    display: table-cell;
+    vertical-align: middle;
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+.card-image {
+    width: 50px;
+    height: 50px;
 }
 
 main {
-    min-height: 80vh;
-    background-color: #ecf0f1;
+    height: 80vh;
     position: relative;
-    border-color: #dddddd;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+.nav-link-container {
+    display: table;
+    float: right;
+    height: 10vh;
+    margin-left: 700px;
+    background-color: #ffffff;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #777777;
+}
+
+.name,
+.nav-link {
+    letter-spacing: 5px;
 }
 
 footer {
     height: 10vh;
     background-color: #666666;
-    border: 3px solid teal;
 }
