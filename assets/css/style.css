@@ -5,27 +5,29 @@
 }
 
 body {
-    background-color: #dddddd;
+    background-color: green;
 }
 
 nav {
     display: table;
     height: 10vh;
     background-color: #4aaaa5;
-    width: 10%;
+    width: 87%;
     margin-left: 100px;
 }
 
 .name {
     color: #ffffff;
+    background-color: aquamarine;
     display: table-cell;
     vertical-align: middle;
+    padding-left: 30px;
 }
 
 .container {
     position: absolute;
-    height: 300px;
-    width: 700px;
+    height: 400px;
+    width: 800px;
     border-radius: 3px;
     background-color: #cccccc;
     top: 50%;
@@ -49,14 +51,15 @@ nav {
     background-color: #ffffff;
     font-size: 30px;
     padding-left: 20px;
+    border-radius: 3px;
 }
 
 .card-image {
-    width: 175px;
-    height: 130px;
+    width: 200px;
+    height: 140px;
+    padding: 10px;
+
 }
-
-
 
 main {
     height: 80vh;
@@ -81,6 +84,7 @@ main {
     vertical-align: middle;
     text-decoration: none;
     color: #777777;
+    padding: 5px;
 }
 
 .nav-link:not(:last-child) {
@@ -96,6 +100,11 @@ footer {
     height: 10vh;
     background-color: #666666;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 8px;
     text-align: center;
+
+}
+
+.footer-text {
+    padding-top: 65px;
 }
