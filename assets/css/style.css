@@ -5,17 +5,13 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: beige;
-}
-
 nav {
     display: table;
-    height: vh10;
-    background-color: #ffffff;
+    height: 10vh;
+    background-color: #cccccc;
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid #666666;
+    border-bottom: 1px solid #777777;
 }
 
 .name {
@@ -41,7 +37,7 @@ nav {
     display: table-cell;
     vertical-align: middle;
     text-decoration: none;
-    color: #666666;
+    color: #777777;
 }
 
 .nav-link:not(:last-child) {
@@ -51,14 +47,14 @@ nav {
 main {
     height: 80vh;
     position: relative;
+    background-color: #ffffff;
 }
 
 .container {
     position: absolute;
     height: 450px;
     width: 960px;
-    border-radius: 4px;
-    background-color: #cccccc;
+    background-color: #dddddd;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -68,13 +64,11 @@ main {
     height: 25%;
     width: 100%;
     display: table;
-    background-color: #ffffff;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
+    background-color: #dddddd;
 }
 
 hr {
-    background-color: #666666;
+    background-color: #dddddd;
     width: 95%;
     margin-left: 25px;
 }
@@ -83,22 +77,24 @@ hr {
     display: table-cell;
     vertical-align: middle;
     color: #4aaaa5;
-    background-color: #cccccc;
+    background-color: #dddddd;
     font-size: 30px;
     padding-left: 20px;
 }
 
-.main-content {
+.pic-container {
     float: left;
     padding: 15px;
 }
 
 .card-text {
     padding: 15px;
-    background-color: #cccccc;
-    color: #666666;
+    background-color: #dddddd;
+    color: #777777;
     height: 350px;
     line-height: 50px;
+    clear: right;
+    overflow: visible;
 }
 
 footer {
@@ -111,5 +107,6 @@ footer {
 }
 
 .footer-text {
-    padding-top: 20px;
+    padding-top: 58px;
+    font-size: 8px;
 }
