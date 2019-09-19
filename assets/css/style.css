@@ -73,15 +73,17 @@ main {
     border-top-left-radius: 4px;
 }
 
-.line {
-    border-top: 8px solid #666666;
+hr {
+    background-color: #666666;
+    width: 95%;
+    margin-left: 25px;
 }
 
 .card-header-text {
     display: table-cell;
     vertical-align: middle;
     color: #4aaaa5;
-    background-color: #ffffff;
+    background-color: #cccccc;
     font-size: 30px;
     padding-left: 20px;
 }
@@ -93,7 +95,7 @@ main {
 
 .card-text {
     padding: 15px;
-    background-color: yellow;
+    background-color: #cccccc;
     color: #666666;
     height: 350px;
     line-height: 50px;
@@ -105,7 +107,7 @@ footer {
     color: #ffffff;
     font-size: 8px;
     text-align: center;
-    border-top: 8px solid #4aaaa5;
+    border-top: 6px solid #4aaaa5;
 }
 
 .footer-text {
