@@ -97,11 +97,6 @@ hr {
     overflow: visible;
 }
 
-.card-texts {
-    clear: right;
-    overflow: hidden;
-}
-
 footer {
     height: 10vh;
     background-color: #666666;
@@ -117,3 +112,13 @@ footer {
 }
 
 /* portfolio.html css */
+
+.card-texted {
+    overflow: auto;
+    height: 330px;
+}
+
+.pic-contain {
+    float: left;
+    padding: 12px;
+}
