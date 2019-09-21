@@ -19,7 +19,7 @@ nav {
     background-color: #4aaaa5;
     display: table-cell;
     float: left;
-    padding-top: 24px;
+    padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
     height: 10vh;
@@ -107,7 +107,7 @@ footer {
 }
 
 .footer-text {
-    padding-top: 58px;
+    padding-top: 35px;
     font-size: 8px;
 }
 
@@ -193,7 +193,7 @@ footer {
 
 .fifth-pic {
     position: absolute;
-    margin-left: -150px;
+    margin-left: 0px;
     margin-top: 85px;
 }
 
@@ -205,4 +205,49 @@ footer {
     padding-top: 12px;
     margin-top: -44px;
     transform: translate(0%, -100%)
+}
+
+
+
+
+/* contact.html css */
+
+
+
+
+.contact-name {
+    margin-top: 20px;
+    color: #666666;
+    font-size: 20px;
+}
+
+.email-area {
+    margin-left: 28px;
+}
+
+.message-area {
+    margin-left: 28px;
+}
+
+.submit-box {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px;
+    width: 10%;
+    height: 8%;
+    text-align: center;
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+input {
+    height: 25px;
+    width: 910px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    height: 60px;
 }
