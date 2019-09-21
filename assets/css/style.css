@@ -111,14 +111,98 @@ footer {
     font-size: 8px;
 }
 
+
+
+
+
 /* portfolio.html css */
 
-.card-texted {
-    overflow: auto;
-    height: 330px;
+
+
+
+
+.card-header {
+    padding-left: 10px;
 }
 
-.pic-contain {
-    float: left;
-    padding: 12px;
+.card-texted {
+    position: relative;
+    padding-top: 25px;
+    padding-left: 25px;
+    overflow: auto;
+}
+
+.text-block {
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 235px;
+    font-size: 20px;
+    width: 31.3%;
+    height: 50px;
+    padding-top: 12px;
+}
+
+.second-pic {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -244px;
+}
+
+.second-box {
+    background-color: #4aaaa5;
+    font-size: 20px;
+    height: 50px;
+    color: #ffffff;
+    padding-top: 12px;
+    margin-bottom: 5px;
+    transform: translate(0%, -94px)
+}
+
+.third-pic {
+    position: absolute;
+    margin-top: 85px;
+}
+
+.third-box {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 12px;
+    margin-top: -44px;
+    transform: translate(0%, -100%)
+}
+
+.fourth-pic {
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -246px;
+}
+
+.fourth-box {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 12px;
+    margin-top: -44px;
+    transform: translate(0%, -100%)
+}
+
+.fifth-pic {
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 85px;
+}
+
+.fifth-box {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 12px;
+    margin-top: -44px;
+    transform: translate(0%, -100%)
 }
