@@ -238,7 +238,7 @@ footer {
     height: 8%;
     text-align: center;
     margin-left: 28px;
-    margin-top: 20px;
+    margin-top: 4px;
 }
 
 input {
@@ -250,4 +250,19 @@ input {
 
 input[type="text"] {
     height: 60px;
+}
+
+.fullname {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.email {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.message {
+    padding-left: 30px;
+    padding-top: 5px;
 }
