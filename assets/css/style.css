@@ -266,25 +266,3 @@ input[type="text"] {
     padding-left: 30px;
     padding-top: 5px;
 }
-
-
-
-
-
-/* Media Queries */
-
-
-
-
-
-@media screen and (max-width: 800px) {
-
-
-    nav,
-    main,
-    .container,
-    .card-text,
-    .card-header-text {
-        background-color: black;
-    }
-}
