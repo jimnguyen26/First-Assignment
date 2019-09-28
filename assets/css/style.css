@@ -19,7 +19,7 @@ nav {
     background-color: #4aaaa5;
     display: table-cell;
     float: left;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     height: 10vh;
@@ -123,6 +123,7 @@ footer {
 
 .card-header {
     padding-left: 10px;
+    position: relative;
 }
 
 .card-texted {
@@ -277,13 +278,76 @@ input[type="text"] {
 
 
 
+@media screen and (max-width: 960px) {
+
+    nav,
+    main,
+    .container,
+    .card-text,
+    .card-header,
+    .card-header-text {
+        background-color: blue;
+        width: 100%;
+        overflow: auto;
+        text-align: center;
+    }
+
+    .container {
+        width: 760px;
+    }
+
+    .card-texted {
+        position: relative;
+        padding-right: 500px;
+    }
+
+    .text-block {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     nav,
     main,
     .container,
     .card-text,
+    .card-header,
     .card-header-text {
         background-color: black;
+        width: 100%;
+        overflow: auto;
+        text-align: center;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .submit-box {
+        width: 77px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    nav,
+    main,
+    .container,
+    .card-text,
+    .card-header,
+    .card-header-text {
+        background-color: yellow;
+        width: 100%;
+        overflow: auto;
+        text-align: center;
+    }
+
+    .container {
+        width: 480px;
+    }
+
+    nav {
+        position: static;
     }
 }
